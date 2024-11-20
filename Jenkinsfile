@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch:'master',url:'https://github.com/machde-testing/ic-travis-diccionario.git'
+                git branch:'master',url:'https://github.com/machde-testing/ic-diccionario.git'
             }
         }
         stage('Install') {
